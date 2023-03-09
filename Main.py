@@ -1,16 +1,9 @@
-#Dion Ming.
+from EncoderDionM import encode
 
 def menu():
     print('1. Encoder')
     print('2. Decoder')
     print('3. Exit')
-def encode(pw):
-    newpw = ''
-    for i in pw:
-        num = int(i)+3
-        newpw += str(num)
-    #print(newpw)
-    return newpw
 
 def main():
 
@@ -25,4 +18,3 @@ def main():
 
         if menuop == 3:
             break
-
