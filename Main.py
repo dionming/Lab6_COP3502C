@@ -1,4 +1,5 @@
 from EncoderDionM import encode
+from decoder import decoder
 
 def menu():
     print('1. Encoder')
@@ -15,7 +16,8 @@ def main():
             passwd = input('Input a password to be encoded: ')
             encpass = encode(passwd)
         if menuop == 2:
-
+            password = input('Input a password to be decoded: ')
+            decoded = decoder(password)
         if menuop == 3:
             break
 
