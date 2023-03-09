@@ -6,5 +6,3 @@ def decoder(password):
         new_password += str(num_3)
     return new_password
 
-
-
