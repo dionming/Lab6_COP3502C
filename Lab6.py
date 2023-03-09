@@ -1,4 +1,4 @@
-#Dion Ming
+#Dion Ming.
 
 def menu():
     print('1. Encoder')
